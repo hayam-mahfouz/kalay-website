@@ -1,0 +1,258 @@
+body{    
+	margin: 0;
+}
+.container{
+	margin: 0 auto;
+	width: 70%;
+}
+.sec-one{
+	background-image: url("home-bg.jpg");
+	margin-bottom: 50px;  /*margin between sections*/
+	height: 100%;
+	width: 100%;
+}
+
+.menu ul{
+	float: right;
+	margin: 0; /* margin is orange*/
+}
+.menu{
+  padding-top: 25px; 
+ }
+
+.menu ul li{
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: bold;
+	color: #121212;
+	font-family: arial;
+	font-size: 15px;
+}
+
+
+.logo{
+	display: inline-block;
+	width: 100px;
+}
+.hello{
+	padding-top: 100px;
+	display: inline-block;
+	float: right;
+
+}
+.hello h1{
+	font-family: arial;
+	font-style: italic;
+
+}
+.hello span{
+ color: red;
+ font-style: italic;
+ font-family: arial;
+
+}
+
+.hello p{
+ line-height: 10px;
+ color: #121212;
+ font-style: italic;
+ font-family: arial;
+ font-weight: bold;
+
+}
+
+.hello button{
+	border: 0;
+	background-color: #121212;
+	color: white;
+	font-family: arial;
+	width: 118px;
+	height: 40px;
+	font-size: 13px;
+	border-radius: 18px;
+}
+
+
+.what p{
+   
+   text-align: center;
+   color: #121212;
+   font-size: 30px;
+   font-family: arial;
+   font-weight: bold;
+
+}
+.Lorum p{
+
+   text-align: center;
+   color: gray;
+   font-size:14px;
+   font-family: arial;
+   font-weight: bold;
+
+
+}
+
+.parentdiv{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:300px;
+    grid-gap:20px;
+    padding-top: 20px;
+}
+
+.parentdiv div{
+
+    box-shadow: 3px 4px  3px 3px #f0f0f0;
+    padding: 
+
+}
+
+.parentdiv img{
+	 margin: 40 auto;   /*img in center of div*/
+     display: block;
+}
+.parentdiv  h3{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: arial;
+	text-align: center;
+}
+
+.parentdiv  p{
+	font-size: 15px;
+	font-style: arial;
+	color: gray;
+	text-align: center;
+}
+
+.sec-three{
+	width: 100%;
+	height: 60%;
+	padding-top: 90px;
+}
+.one {
+	width: 50%;
+	display: inline-block;
+}
+.one img{
+	width: 90%;
+}
+
+.two {
+	width: 50%;
+	display: inline-block;
+	float: right;
+
+}
+.two p{
+
+	font-size: 20px;
+	font-style: arial;
+	color: gray;
+}
+.parentimg{
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:200px;
+    grid-gap:20px;
+    padding-top: 20px;
+}
+
+.parentimg img{
+	width: 100%;
+}
+.sec-four{
+	padding-top: 50px;
+}
+
+.sec-five{
+	padding-top: 50px;
+    padding-bottom: 120px;
+
+}
+.touch p{
+	font-size: 20px;
+	font-style: arial;
+	color: gray;
+
+}
+.msg{
+	width: 50%;
+	display: inline-block;
+}
+.msg p{
+	display: inline-block;
+	font-size: 20px;
+	font-style: arial;
+	color: gray;
+	border-bottom: 1px solid gray;
+	padding-bottom: 15px;
+	padding-right:27%;
+	width: 20%;
+	margin-right:13px;
+}
+
+.msginput p{
+	padding-bottom: 100px;
+	width: 70%;
+
+}
+.msg button{
+	float: right;
+	border: 0;
+	background-color: #121212;
+	color: white;
+	font-family: arial;
+	width: 118px;
+	height: 40px;
+	font-size: 13px;
+	border-radius: 18px;
+	display: inline-block;
+}
+.contact{
+	padding-top: 15%;
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+    grid-template-rows:300px;
+    grid-gap:40px;
+    font-family: arial;
+
+}
+.email,.name{
+	display: inline-block;
+	border-bottom: 1px solid gray;
+	padding-right: 30%;
+	margin-right: 30px;
+	font-family: arial;
+}
+.msginput{
+	border-bottom: 1px solid gray;
+	padding-bottom: 5%;
+}
+button{
+	float: right;
+	padding: 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	background-color: black;
+}
+.sec-six{
+	background-color: #7682cc;
+	width: 100%;
+	height: 30%;
+}
+.sec-six .container p{
+	text-align: center;
+	font-family: arial;
+	font-family: 17px;
+	color: white;
+}
+.footer{
+	padding-top: 8%;
+    
+
+}
